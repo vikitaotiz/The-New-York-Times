@@ -26,6 +26,7 @@ body, html{
   
   .caption{
     color: #606060;
+    font-size: 15px;
   }
   
   h2{
@@ -63,6 +64,8 @@ body, html{
   
   .wrapper{
     padding: 1% 12% 1% 12%;
+    line-height: 200%;
+    font-size: 20px;
   }
   
   .container-1{
@@ -141,4 +144,44 @@ body, html{
   .title{
     font-weight: bold;
     border-bottom: #ccc 1px solid;
+  }
+
+  footer{
+    border-top: 1px solid #ccc;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+  }
+
+  footer > div{
+    flex: 1;
+    margin: 10px;
+  }
+
+  .items{
+    list-style: none;
+    padding: 3% 0% 3% 0%;
+  }
+
+  .foot-6{
+    border-left: 1px solid #ccc;
+    padding-left: 2%;
+  }
+
+  .lower-footer{
+    padding: 2%;
+    font-size: 12px;
+  }
+
+  .final{
+    list-style: none;
+  }
+
+  .final li{
+      float: left;
+      margin-left: 1%;
+  }
+
+  .final li a:link{
+      text-decoration: none;
   }
