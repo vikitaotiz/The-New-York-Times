@@ -1,4 +1,68 @@
 body, html{
-    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     margin: 0px;
-}
+    padding: 0px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+  }
+  
+  h1{
+    font-size: 34px;
+  }
+  
+  header{
+    padding: 2%;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav{
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+  
+  .left{
+    flex: 1;
+  }
+  
+  .center{
+    flex: 5;
+  }
+  
+  .right{
+    flex: 1;
+  }
+  
+  .container{
+    display: flex;
+    margin-top: 7%;
+  }
+  
+  .subscription{
+    margin: 3% 4% 3% 4%;
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid #ccc; 
+    border-bottom: 2px solid #ccc; 
+  }
+  
+  .image-1{
+    text-align: center;
+  }
+  
+  .wrapper{
+    padding: 1% 12% 1% 12%;
+  }
+  
+  .container-1{
+    width: 1000px;
+    height: 600px;
+    margin-top: 1%;
+  }
