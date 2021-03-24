@@ -119,11 +119,19 @@ h2{
 }
   
 .subscription{
-  margin: 3% 4% 3% 4%;
   text-align: center;
   font-weight: bold;
-  border-top: 2px solid #ccc; 
-  border-bottom: 2px solid #ccc; 
+  font-size: medium;
+  line-height: normal;
+}
+
+.hr{
+  color: #505050;
+  width: 10%;
+}
+
+.subscription>a{
+  text-decoration: none;
 }
   
 .image-1{
@@ -302,7 +310,7 @@ footer > div{
   color: rgb(139, 139, 139);
 }
 
-.sub-caption{
+.caption-time{
   font-size: 13px;
   color: rgb(139, 139, 139);
 }
