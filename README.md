@@ -14,7 +14,7 @@ The website is divided into three main sections. The header, main area with the 
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://vikitaotiz.github.io/The-New-York-Times/)
 
 
 ## Getting Started
@@ -33,11 +33,6 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 - Navigate to the selected directory
 
-### Run tests
-- No tests yet
-
-### Deployment
-- No deployemnet yet
 
 ## Authors
 
@@ -51,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/vikitaotiz/The-New-York-Times/issues/3).
 
 ## Show your support
 
@@ -65,4 +60,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) licensed.
