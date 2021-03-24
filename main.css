@@ -21,7 +21,7 @@ header {
   text-align: center;
   padding: 2%;
   border-bottom: 1px solid #ccc;
-  font-family: Libre Baskerville;
+  font-family: Libre Baskerville, Arial, Verdana, Tahoma, sans-serif;
 }
 
 .social-icons {
