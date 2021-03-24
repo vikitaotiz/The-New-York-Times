@@ -82,6 +82,11 @@ nav ul li {
   display: flex;
 }
 
+footer > div {
+  flex: 1;
+  margin: 10px;
+}
+
 .sub-section-1 > div {
   flex: 1;
 }
@@ -159,11 +164,6 @@ h2 {
   padding: 1%;
   font-size: 13px;
   display: flex;
-}
-
-footer > div {
-  flex: 1;
-  margin: 10px;
 }
 
 .wrapper-1 > div {
