@@ -29,9 +29,9 @@ header {
 }
 
 .author {
-    padding: 2%;
-    font-size: small;
-    margin-left: 10%;
+  padding: 2%;
+  font-size: small;
+  margin-left: 10%;
 }
 
 .logo {
@@ -130,7 +130,7 @@ h2 {
   width: 10%;
 }
 
-.subscription>a {
+.subscription > a {
   text-decoration: none;
 }
 
