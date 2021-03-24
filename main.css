@@ -24,6 +24,22 @@ body {
   flex: 5;
 }
 
+.no-list-style {
+  list-style: none;
+}
+
+.float-left {
+  float: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.margin-6 {
+  margin: 6px;
+}
+
 header {
   border-bottom: 1px solid #ccc;
   position: fixed;
@@ -40,10 +56,6 @@ header {
   font-family: Libre Baskerville, Arial, Verdana, Tahoma, sans-serif;
 }
 
-.social-icons {
-  list-style: none;
-}
-
 .author {
   padding: 2%;
   font-size: small;
@@ -55,13 +67,10 @@ header {
 }
 
 nav ul li {
-  list-style: none;
-  float: left;
   margin-left: 2%;
 }
 
 .social-icons li {
-  float: left;
   padding: 2%;
 }
 
@@ -74,7 +83,6 @@ nav ul li {
   padding: 10px 25px;
   background-color: #567b95;
   border: none;
-  font-weight: bold;
   border-radius: 2px;
 }
 
@@ -103,7 +111,6 @@ footer > div {
   padding: 12px 28px;
   background-color: #567b95;
   border: none;
-  font-weight: bold;
   border-radius: 3px;
 }
 
@@ -117,7 +124,6 @@ h2 {
 
 .subscription {
   text-align: center;
-  font-weight: bold;
   font-size: medium;
   line-height: normal;
 }
@@ -152,22 +158,10 @@ h2 {
   margin-top: 1%;
 }
 
-.wrapper-1 {
-  padding: 1%;
-  font-size: 13px;
-}
-
-.wrapper-1 > div {
-  margin: 6px;
-}
-
+.wrapper-1,
 .wrapper-2 {
   padding: 1%;
   font-size: 13px;
-}
-
-.wrapper-2 > div {
-  margin: 6px;
 }
 
 .box-img {
@@ -190,7 +184,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
-  padding: 2;
+  padding: 2%;
   flex: 2;
 }
 
@@ -212,7 +206,6 @@ h2 {
 }
 
 .new_titles {
-  list-style-type: none;
   margin: 3% 0% 3% 0%;
   padding: 3% 0% 3% 0%;
   border-top: 1px solid #ccc;
@@ -228,7 +221,6 @@ h2 {
 }
 
 .title {
-  font-weight: bold;
   border-bottom: #ccc 1px solid;
 }
 
@@ -240,7 +232,6 @@ footer {
 }
 
 .items {
-  list-style: none;
   padding: 3% 0% 3% 0%;
 }
 
@@ -260,12 +251,7 @@ footer {
   font-size: 12px;
 }
 
-.final {
-  list-style: none;
-}
-
 .final li {
-  float: left;
   margin-left: 1%;
 }
 
@@ -281,13 +267,12 @@ footer {
   margin-bottom: 50px;
 }
 
-.signup-1 > div {
+/* .signup-1 > div {
   flex: 1;
-}
+} */
 
 .signup-1-btn {
   padding: 12px 28px;
-  font-weight: bold;
   border-radius: 3px;
   margin-left: 60%;
 }
