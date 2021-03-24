@@ -71,11 +71,11 @@ nav ul li {
 }
 
 .btn {
-  padding: 12px 28px;
+  padding: 10px 25px;
   background-color: #567b95;
   border: none;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .caption {
