@@ -209,7 +209,7 @@ h2 {
 
 footer > div {
   flex: 1;
-  margin: 10px;  
+  margin: 10px;
 }
 
 .box-1 > div {
@@ -290,7 +290,6 @@ footer {
   padding: 12px 28px;
   font-weight: bold;
   border-radius: 3px;
-  font-weight: bold;
   margin-left: 60%;
 }
 
@@ -321,8 +320,8 @@ footer {
 }
 
 .item-ed {
- border-bottom: 1px solid #ccc;
- padding-bottom: 2%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2%;
 }
 
 .items > .icons{
