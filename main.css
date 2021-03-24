@@ -145,7 +145,7 @@ h2 {
 }
 
 .wrap {
-  border-top:1px solid #ccc;
+  border-top: 1px solid #ccc;
   margin-top: 2%;
 }
 
@@ -207,6 +207,11 @@ h2 {
   margin: 6px;
 }
 
+footer > div {
+  flex: 1;
+  margin: 10px;  
+}
+
 .box-1 > div {
   margin: 6px;
 }
@@ -232,11 +237,6 @@ footer {
   padding: 1%;
   margin: 1%;
   display: flex;
-}
-
-footer > div {
-  flex: 1;
-  margin: 10px;
 }
 
 .items {
