@@ -41,8 +41,11 @@ html {
   margin: 6px;
 }
 
-header {
+.border-bottom {
   border-bottom: 1px solid #ccc;
+}
+
+header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -53,7 +56,6 @@ header {
   font-size: 40px;
   text-align: center;
   padding: 2%;
-  border-bottom: 1px solid #ccc;
   font-family: Libre Baskerville, Arial, Verdana, Tahoma, sans-serif;
 }
 
@@ -227,7 +229,6 @@ h2 {
 
 footer {
   border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
   padding: 1%;
   margin: 1%;
 }
@@ -300,7 +301,6 @@ footer {
 }
 
 .item-ed {
-  border-bottom: 1px solid #ccc;
   padding-bottom: 2%;
 }
 
