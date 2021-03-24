@@ -161,6 +161,11 @@ h2 {
   display: flex;
 }
 
+footer > div {
+  flex: 1;
+  margin: 10px;
+}
+
 .wrapper-1 > div {
   margin: 6px;
 }
@@ -205,11 +210,6 @@ h2 {
 
 .section-footer > div {
   margin: 6px;
-}
-
-footer > div {
-  flex: 1;
-  margin: 10px;
 }
 
 .box-1 > div {
@@ -297,7 +297,6 @@ footer {
   padding: 12px 28px;
   font-weight: bold;
   border-radius: 3px;
-  font-weight: bold;
   margin-left: 60%;
   background-color: #000;
   color: #fff;
@@ -324,6 +323,6 @@ footer {
   padding-bottom: 2%;
 }
 
-.items > .icons{
+.items > .icons {
   color: #000;
 }
