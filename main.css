@@ -82,7 +82,7 @@ nav ul li {
   display: flex;
 }
 
-.sub-section-1>div {
+.sub-section-1 > div {
   flex: 1;
 }
 
@@ -244,7 +244,7 @@ footer > div {
   padding: 3% 0% 3% 0%;
 }
 
-.items>li {
+.items > li {
   margin-bottom: 10px;
   font-size: 14px;
   color: #505050;
@@ -282,7 +282,7 @@ footer > div {
   display: flex;
 }
 
-.signup-1>div {
+.signup-1 > div {
   flex: 1;
 }
 
@@ -325,6 +325,6 @@ footer > div {
  padding-bottom: 2%;
 }
 
-.items>.icons{
+.items > .icons{
   color: #000;
 }
