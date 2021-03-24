@@ -8,6 +8,22 @@ body {
   grid-template-rows: 1fr 5fr 1fr;
 }
 
+.white-color {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
 header {
   border-bottom: 1px solid #ccc;
   position: fixed;
@@ -58,7 +74,6 @@ nav ul li {
   padding: 12px 28px;
   background-color: #567b95;
   border: none;
-  color: #fff;
   font-weight: bold;
   border-radius: 3px;
 }
@@ -78,17 +93,8 @@ nav ul li {
   margin-top: 3%;
 }
 
-.sub-section-1 {
-  display: flex;
-}
-
 footer > div {
-  flex: 1;
   margin: 10px;
-}
-
-.sub-section-1 > div {
-  flex: 1;
 }
 
 .comment-btn {
@@ -97,7 +103,6 @@ footer > div {
   padding: 12px 28px;
   background-color: #567b95;
   border: none;
-  color: #fff;
   font-weight: bold;
   border-radius: 3px;
 }
@@ -106,20 +111,7 @@ h2 {
   text-align: center;
 }
 
-.left {
-  flex: 1;
-}
-
-.center {
-  flex: 5;
-}
-
-.right {
-  flex: 1;
-}
-
 .container {
-  display: flex;
   margin-top: 7%;
 }
 
@@ -163,7 +155,6 @@ h2 {
 .wrapper-1 {
   padding: 1%;
   font-size: 13px;
-  display: flex;
 }
 
 .wrapper-1 > div {
@@ -173,7 +164,6 @@ h2 {
 .wrapper-2 {
   padding: 1%;
   font-size: 13px;
-  display: flex;
 }
 
 .wrapper-2 > div {
@@ -187,10 +177,10 @@ h2 {
 
 .video {
   margin: 10px auto;
+  border: none;
 }
 
 .section-footer {
-  display: flex;
   margin-top: 10px;
   padding: 3% 1% 2% 2%;
 }
@@ -200,11 +190,12 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
+  padding: 2;
+  flex: 2;
 }
 
 .box-2 {
   border-top: 1px solid;
-  flex: 1;
   padding: 2%;
 }
 
@@ -224,6 +215,16 @@ h2 {
   list-style-type: none;
   margin: 3% 0% 3% 0%;
   padding: 3% 0% 3% 0%;
+  border-top: 1px solid #ccc;
+}
+
+.new_titles > li {
+  padding: 15px 0px 15px 0px;
+}
+
+.new_titles > li:hover {
+  color: #505050;
+  cursor: pointer;
 }
 
 .title {
@@ -236,7 +237,6 @@ footer {
   border-bottom: 1px solid #ccc;
   padding: 1%;
   margin: 1%;
-  display: flex;
 }
 
 .items {
@@ -279,7 +279,6 @@ footer {
   color: #606060;
   font-style: italic;
   margin-bottom: 50px;
-  display: flex;
 }
 
 .signup-1 > div {
@@ -314,7 +313,7 @@ footer {
 }
 
 .footer-editor {
-  width: 80%;
+  width: 66%;
   padding: 3% 1% 2% 2%;
 }
 
