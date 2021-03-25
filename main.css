@@ -326,14 +326,14 @@ form {
 
 .name-input,
 .email-input {
-  width: 100%;
+  width: 90%;
   padding: 3%;
   border-radius: 5px;
 }
 
 .comment-input {
   padding: 3%;
-  width: 100%;
+  width: 90%;
   border-radius: 5px;
 }
 
