@@ -308,13 +308,11 @@ footer {
   color: #000;
 }
 
-.comment-form {
-  border-top: 1px solid #ccc;
-}
-
 form {
   margin: auto;
   padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .text-inputs {
@@ -328,7 +326,7 @@ form {
 
 .name-input,
 .email-input {
-  width: 97%;
+  width: 100%;
   padding: 3%;
   border-radius: 5px;
 }
@@ -353,6 +351,6 @@ form {
   background-color: #567b95;
   border: none;
   color: #fff;
-  width: 98%;
+  width: 100%;
   border-radius: 5px;
 }
