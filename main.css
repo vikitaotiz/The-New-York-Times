@@ -315,7 +315,6 @@ footer {
 form {
   margin: auto;
   padding: 2%;
-  border-radius: 5px;
 }
 
 .text-inputs {
@@ -329,7 +328,7 @@ form {
 
 .name-input,
 .email-input {
-  width: 100%;
+  width: 97%;
   padding: 3%;
   border-radius: 5px;
 }
