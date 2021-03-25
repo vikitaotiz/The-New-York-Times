@@ -308,10 +308,13 @@ footer {
   color: #000;
 }
 
+.comment-form {
+  border-top: 1px solid #ccc;
+}
+
 form {
-  margin: 10% auto;
+  margin: auto;
   padding: 2%;
-  border: 1px solid #ccc;
   border-radius: 5px;
 }
 
@@ -351,6 +354,6 @@ form {
   background-color: #567b95;
   border: none;
   color: #fff;
-  width: 100%;
+  width: 98%;
   border-radius: 5px;
 }
