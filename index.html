@@ -402,6 +402,46 @@
                     “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of
                     the team, “you wind up at inflation.”
                 </p>
+
+                <div class="comment-form">
+                    <form action="#" method="post">
+                        <div class="text-inputs">
+                            <div class="name input">
+                                <label for="name">Name</label><br>
+                                <input type="text" name="name" id="name" placeholder="Name" class="name-input" required maxlength="50">
+                            </div>
+                            <div class="email input">
+                                <label for="email">Email</label><br>
+                                <input type="email" name="email" id="email" placeholder="Email" class="email-input" required maxlength="50">
+                            </div>
+                        </div>
+                        
+                        <div class="comment input">
+                            <label for="comment">Comment</label><br>
+                            <textarea name="comment" id="comment" cols="85" rows="5" placeholder="Type your comment here..." class="comment-input" maxlength="250" required></textarea>
+                        </div>
+
+                        <label for="radio-buttons">What is your overall opinion about this article?</label><br>
+                        <div class="radio-btn flex">
+                            <div class="flex-1">
+                                <input type="radio" name="opinion" value="positive"> Positive
+                            </div>
+                            <div class="flex-1">
+                                <input type="radio" name="opinion" value="negative"> Negative
+                            </div>
+                            <div class="flex-1">
+                                <input type="radio" name="opinion" value="neutral"> Neutral
+                            </div>
+                        </div>
+                
+                        <div class="checkbox">
+                            <input type="checkbox" id="subscribe" name="subscribe" value="Bike">
+                            <label for="subscribe">I want to subscribe to the newsletter.</label><br>
+                        </div>
+                
+                        <button type="submit" class="btn-comment">SEND</button>
+                    </form>
+                </div>
                 <div class="sub-section">
                     <div class="caption-1">
                         A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: 

@@ -307,3 +307,48 @@ footer {
 .items > .icons {
   color: #000;
 }
+
+form {
+  margin: 10% auto;
+  padding: 2%;
+}
+
+.text-inputs {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.text-inputs > div {
+  flex: 1;
+}
+
+.name-input,
+.email-input {
+  width: 90%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.comment-input {
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.radio-btn {
+  margin-bottom: 3%;
+}
+
+.radio-btn > input {
+  margin: 3%;
+}
+
+.btn-comment {
+  margin-top: 4%;
+  padding: 10px 25px;
+  background-color: #567b95;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  width: 100%;
+  border-radius: 5px;
+}
