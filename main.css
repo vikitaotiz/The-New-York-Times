@@ -311,6 +311,8 @@ footer {
 form {
   margin: 10% auto;
   padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .text-inputs {
