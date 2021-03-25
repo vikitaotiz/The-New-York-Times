@@ -214,6 +214,16 @@ h2 {
   border-top: 1px solid #ccc;
 }
 
+.items > li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #505050;
+}
+
+.final li {
+  margin-left: 1%;
+}
+
 .new_titles > li {
   padding: 15% 0% 15% 0%;
 }
@@ -237,12 +247,6 @@ footer {
   padding: 3% 0% 3% 0%;
 }
 
-.items > li {
-  margin-bottom: 10px;
-  font-size: 14px;
-  color: #505050;
-}
-
 .foot-6 {
   border-left: 1px solid #ccc;
   padding-left: 2%;
@@ -251,10 +255,6 @@ footer {
 .lower-footer {
   padding: 2%;
   font-size: 12px;
-}
-
-.final li {
-  margin-left: 1%;
 }
 
 .final li a:link {
