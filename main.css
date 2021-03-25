@@ -1,0 +1,356 @@
+body,
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.no-list-style {
+  list-style: none;
+}
+
+.float-left {
+  float: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.margin-6 {
+  margin: 6px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header-1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 2%;
+  font-family: Libre Baskerville, Arial, Verdana, Tahoma, sans-serif;
+}
+
+.author {
+  padding: 2%;
+  font-size: small;
+  margin-left: 10%;
+}
+
+.logo {
+  margin-left: 100%;
+}
+
+nav ul li {
+  margin-left: 2%;
+}
+
+.social-icons li {
+  padding: 2%;
+}
+
+.list-btn {
+  margin-left: 35%;
+  margin-bottom: 1%;
+}
+
+.btn {
+  padding: 10px 25px;
+  background-color: #567b95;
+  border: none;
+  border-radius: 2px;
+}
+
+.caption {
+  color: #606060;
+  font-size: 15px;
+}
+
+.caption-1 {
+  color: #606060;
+  font-size: 12px;
+  line-height: normal;
+}
+
+.sub-section {
+  margin-top: 3%;
+}
+
+footer > div {
+  margin: 10px;
+}
+
+.comment-btn {
+  width: 300px;
+  margin-top: 7%;
+  padding: 12px 28px;
+  background-color: #567b95;
+  border: none;
+  border-radius: 3px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  margin-top: 7%;
+}
+
+.subscription {
+  text-align: center;
+  font-size: medium;
+  line-height: normal;
+}
+
+.hr {
+  color: #505050;
+  width: 10%;
+}
+
+.subscription > a {
+  text-decoration: none;
+}
+
+.banner {
+  width: 100%;
+}
+
+.wrapper {
+  padding: 1% 12% 1% 12%;
+  line-height: 200%;
+  font-size: 20px;
+}
+
+.wrap {
+  border-top: 1px solid #ccc;
+  margin-top: 2%;
+}
+
+.container-1 {
+  width: 1000px;
+  height: 600px;
+  margin-top: 1%;
+}
+
+.wrapper-1,
+.wrapper-2 {
+  padding: 1%;
+  font-size: 13px;
+}
+
+.box-img {
+  width: 220px;
+  height: 140px;
+}
+
+.video {
+  margin: 10px auto;
+  border: none;
+}
+
+.section-footer {
+  margin-top: 10px;
+  padding: 3% 1% 2% 2%;
+}
+
+.box-1 {
+  border-top: 1px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  padding: 2%;
+  flex: 2;
+}
+
+.box-2 {
+  border-top: 1px solid;
+  padding: 2%;
+}
+
+.section-footer > div {
+  margin: 6px;
+}
+
+.box-1 > div {
+  margin: 6px;
+}
+
+.subheads {
+  font-size: 14px;
+}
+
+.new_titles {
+  margin: 3% 0% 3% 0%;
+  padding: 3% 0% 3% 0%;
+  border-top: 1px solid #ccc;
+}
+
+.items > li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #505050;
+}
+
+.final li {
+  margin-left: 1%;
+}
+
+.new_titles > li {
+  padding: 15% 0% 15% 0%;
+}
+
+.new_titles > li:hover {
+  color: #505050;
+  cursor: pointer;
+}
+
+.title {
+  border-bottom: #ccc 1px solid;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 1%;
+  margin: 1%;
+}
+
+.items {
+  padding: 3% 0% 3% 0%;
+}
+
+.foot-6 {
+  border-left: 1px solid #ccc;
+  padding-left: 2%;
+}
+
+.lower-footer {
+  padding: 2%;
+  font-size: 12px;
+}
+
+.final li a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+.signup-1 {
+  font-size: 15px;
+  color: #606060;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.signup-1-btn {
+  padding: 12px 28px;
+  border-radius: 3px;
+  margin-left: 60%;
+}
+
+.signup-1-btn:hover {
+  padding: 12px 28px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-left: 60%;
+  background-color: #000;
+  color: #fff;
+}
+
+.image-caption {
+  font-size: 10px;
+  float: right;
+  color: rgb(139, 139, 139);
+}
+
+.caption-time {
+  font-size: 13px;
+  color: rgb(139, 139, 139);
+}
+
+.footer-editor {
+  width: 64%;
+  padding: 3% 1% 2% 2%;
+}
+
+.item-ed {
+  padding-bottom: 2%;
+}
+
+.items > .icons {
+  color: #000;
+}
+
+form {
+  margin: auto;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-inputs {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.text-inputs > div {
+  flex: 1;
+}
+
+.name-input,
+.email-input {
+  width: 70%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.comment-input {
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.radio-btn {
+  margin-bottom: 3%;
+}
+
+.radio-btn > input {
+  margin: 3%;
+}
+
+.btn-comment {
+  margin-top: 4%;
+  padding: 10px 25px;
+  background-color: #567b95;
+  border: none;
+  color: #fff;
+  width: 100%;
+  border-radius: 5px;
+}
